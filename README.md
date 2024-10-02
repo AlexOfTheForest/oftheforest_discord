@@ -24,13 +24,12 @@ This project adds Discord Rich Presence functionality to your FiveM server, allo
 
 ### Step 2: Install the Resource on Your FiveM Server
 1. Clone or download this repository to your `resources` folder.
-2. Rename the folder (optional) to `oftheforest_discord` if necessary.
-3. Inside the folder, ensure the following files are present:
+2. Inside the folder, ensure the following files are present:
    - `fxmanifest.lua`
    - `oftheforest_discord.lua`
 
 ### Step 3: Configure the Resource
-In the `discord_rich_presence.lua` file, replace the placeholder URLs with your actual Discord invite link and FiveM server IP.
+In the `oftheforest_discord.lua` file, replace the placeholder URLs with your actual Discord invite link and FiveM server IP.
 
 ```lua
 SetDiscordRichPresenceAction(0, "DISCORD", "https://discord.gg/yourserver") -- Replace with your Discord invite link
