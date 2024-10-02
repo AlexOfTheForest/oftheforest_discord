@@ -1,4 +1,4 @@
-# FiveM Discord Rich Presence Integration
+# FiveM Discord Rich Presence
 
 ![FiveM](https://img.shields.io/badge/FiveM-OfTheForest--DiscordRichPresence-purple.svg)  
 This project adds Discord Rich Presence functionality to your FiveM server, allowing players to display their in-game status on their Discord profiles. The Rich Presence includes player actions (e.g., running, swimming, driving), current street name, player ID, and clickable buttons to join your Discord server or FiveM server.
