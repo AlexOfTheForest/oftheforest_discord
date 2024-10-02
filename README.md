@@ -1,5 +1,6 @@
 # FiveM Discord Rich Presence Integration
 
+![FiveM](https://img.shields.io/badge/FiveM-OfTheForest--DiscordRichPresence-purple.svg)  
 This project adds Discord Rich Presence functionality to your FiveM server, allowing players to display their in-game status on their Discord profiles. The Rich Presence includes player actions (e.g., running, swimming, driving), current street name, player ID, and clickable buttons to join your Discord server or FiveM server.
 
 ## Features
@@ -23,14 +24,14 @@ This project adds Discord Rich Presence functionality to your FiveM server, allo
 
 ### Step 2: Install the Resource on Your FiveM Server
 1. Clone or download this repository to your `resources` folder.
-2. Rename the folder (optional) to `discord_rich_presence` if necessary.
+2. Rename the folder (optional) to `oftheforest_discord` if necessary.
 3. Inside the folder, ensure the following files are present:
    - `fxmanifest.lua`
-   - `discord_rich_presence.lua`
+   - `oftheforest_discord.lua`
 
 ### Step 3: Configure the Resource
 In the `discord_rich_presence.lua` file, replace the placeholder URLs with your actual Discord invite link and FiveM server IP.
 
 ```lua
-SetDiscordRichPresenceAction(0, "Join Discord", "https://discord.gg/yourserver") -- Replace with your Discord invite link
-SetDiscordRichPresenceAction(1, "Join FiveM Server", "fivem://connect/YOUR_SERVER_IP") -- Replace with your FiveM server IP
+SetDiscordRichPresenceAction(0, "DISCORD", "https://discord.gg/yourserver") -- Replace with your Discord invite link
+SetDiscordRichPresenceAction(1, "PLAY", "fivem://connect/YOUR_SERVER_IP") -- Replace with your FiveM server IP
